@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/splashContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/tvCampusNavigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campus Navigation"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dashboardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Start Navigation"
+            android:layout_margin="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/mapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/campusMapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/campus_map"
+            android:scaleType="matrix" />
+
+        <TextView
+            android:id="@+id/tvDebugInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#AA000000"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:text="Waiting for GPS..."
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:elevation="10dp"/>
+
+        <ImageView
+            android:id="@+id/locationPointer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_mylocation"
+            android:layout_gravity="top|start"
+            android:visibility="invisible"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
