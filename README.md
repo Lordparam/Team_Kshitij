@@ -209,3 +209,11 @@ In round two, we aim to expand this into a complete smart campus platform.
 1. since there are the facilities in campus like bakery and canteen, so this app can support online ordering from campus facilities.
 2. we also plan to intertrait AI based building and a identification.
 3. overall, we are planning to build a full AI based navigation system on our app.
+
+## 🎥 Demo Video
+
+▶️ Watch the complete working demo of the Campus Navigation System here:
+
+https://drive.google.com/file/d/138afMx5qX18tUgPZtIWZJ4ilMjy10pEH/view?usp=drive_link
+
+This video will demonstrate about the project and its specifications
