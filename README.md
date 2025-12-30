@@ -151,7 +151,7 @@ It's way more useful than Google maps because they are basically designed for na
 
 ---
 ### Project Flowchart
-![Campus Navigation Flowchart](https://github.com/Lordparam/Team_Kshitij/blob/aa25843fe84eadd7838c3eb46f5bf3ed87ac8bed/flochart.jpg?raw=true)
+![Campus Navigation Flowchart](https://github.com/Lordparam/Team_Kshitij/blob/325e81049fbdf46cbef7993d3696f983cb1c2aa2/Flowchart.png?raw=true)
 
 ## App Demo Guide
 
