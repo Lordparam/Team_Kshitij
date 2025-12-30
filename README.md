@@ -128,6 +128,24 @@ These strategies for scaling include:
 * **Making this an all rounder campus usage app will be on priority.**
 
 ---
+##  Demo 1: App UI
+Home Screen
+
+<p align="center">
+  <img src="https://github.com/Lordparam/Team_Kshitij/blob/b4f919f70641b4e1d059260be9b0c8eacb3af705/demo3.png?raw=true" alt="Demo 3" width="600">
+</p>
+
+##  Demo 2: Custom Map of Campus
+Pinch to zoom and drag to pan map facility, with a pointer that will track your position.
+
+
+<p align="center">
+  <img src="https://github.com/Lordparam/Team_Kshitij/blob/b4f919f70641b4e1d059260be9b0c8eacb3af705/demo2.png?raw=true" alt="Demo 3" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Lordparam/Team_Kshitij/blob/b4f919f70641b4e1d059260be9b0c8eacb3af705/demo1.png?raw=true" alt="Demo 3" width="600">
+</p>
 
 ## Future UI Improvements
 
@@ -178,7 +196,7 @@ We have built a lightweight yet an extendable prototype ready for full deploymen
 ## UI Design Philosophy
 
 Summary of UI Design Philosophy
-The app UI has many good features Such as minimal layout, precision, offline support, progressive complexity, voice support and accessibility.
+The app UI has many good features Such as minimal layout, precision, progressive complexity,and accessibility.
 
 ---
 
