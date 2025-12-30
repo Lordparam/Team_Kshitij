@@ -150,6 +150,8 @@ To improve the use of our Campus navigation system. We could do some improvement
 It's way more useful than Google maps because they are basically designed for navigation in roads or streets, not inside the periphery of any campus or any private property. So our app is slightly integrated within the campus boundaries which includes its timetable booking, emergency, contact and everything. Additionally, it is completely add free with minimal UI which is currently focused only on the campus navigation system.
 
 ---
+### Project Flowchart
+![Campus Navigation Flowchart](https://github.com/Lordparam/Team_Kshitij/blob/aa25843fe84eadd7838c3eb46f5bf3ed87ac8bed/flochart.jpg?raw=true)
 
 ## App Demo Guide
 
